@@ -5,6 +5,11 @@ import bs4
 import csv
 import re
 
+"""
+TODO:
+1. Deal with wrong course numbers
+2.
+"""
 class Lesson:
     def __init__(self,proffesor,type,groupId,semester,days,hours,location) -> None:
         self._proffesor=proffesor
